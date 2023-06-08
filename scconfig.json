@@ -1,0 +1,24 @@
+{    
+    "main": "@scom/dapp",
+    "modules": {
+        "@scom/demo-dapp/module1": {
+            "path": "module1"
+        }
+    },
+    "menus": [
+        {
+            "caption": "Module 1",
+            "url": "/module1",
+            "module": "@scom/demo-dapp/module1",
+            "params": {},
+            "menus": []
+        },
+        {
+            "caption": "Module 2",
+            "url": "/module2",
+            "module": "@scom/demo-dapp/module2",
+            "params": {},
+            "menus": []
+        }
+    ]
+}
